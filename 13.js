@@ -1,2 +1,2 @@
 //Multiply Two Numbers with JavaScript
-onst product = 8 * 10;
+const product = 8 * 10;
