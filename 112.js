@@ -17,9 +17,7 @@ var name ='John';
      printName(); 
     
      console.log(typeof g());
-const details = {
-    message: 'Hello!',
-}
+
  function getMessage(){
      return this.message;
     }
@@ -59,18 +57,6 @@ function printName(){
 let printNameMethod = printName.bind(obj3)
 
 printNameMethod()
-
-
-let f = function(a,b) { return a+b }
-console.log(f(1,2))
-
-let f = new Function("a,b", "return a+b")
-console.log(f(1,2))
-
-let f = new Function("a", "b", "return a+b")
-// console.log(f(1,2))
-let f = (a, b) => a + b
-console.log(f(1,2))
 
 let f = (a, b) => { a + b }
 console.log(f(1,2))
